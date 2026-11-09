@@ -5791,7 +5791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R26"
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -6260,7 +6260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "RobotHAT:SOT-23_Q1"
 			(at 123.19 66.675 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "RobotHAT:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical_J13"
 			(at 252.73 182.88 0)
 			(effects
 				(font
@@ -7019,7 +7019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C18"
 			(at 165.1 240.03 0)
 			(effects
 				(font
@@ -7268,7 +7268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R28"
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -7536,7 +7536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.2x2.15mm"
+		(property "Footprint" "RobotHAT:DFN-8-1EP_3x3mm_P0.65mm_EP1.2x2.15mm_U8"
 			(at 199.39 330.2 0)
 			(effects
 				(font
@@ -8251,7 +8251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C16"
 			(at 148.59 240.03 0)
 			(effects
 				(font
@@ -8501,7 +8501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R32"
 			(at 189.23 134.62 0)
 			(effects
 				(font
@@ -8767,7 +8767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "RobotHAT:SOT-23-5_U5"
 			(at 85.09 226.06 0)
 			(effects
 				(font
@@ -8979,7 +8979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "RobotHAT:R_0603_1608Metric_TH1"
 			(at 219.71 180.34 0)
 			(effects
 				(font
@@ -9379,7 +9379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C15"
 			(at 163.83 298.45 0)
 			(effects
 				(font
@@ -9818,7 +9818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R27"
 			(at 107.95 68.58 0)
 			(effects
 				(font
@@ -10085,7 +10085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C17"
 			(at 157.48 240.03 0)
 			(effects
 				(font
@@ -10327,7 +10327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "RobotHAT:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_J3"
 			(at 250.19 345.44 0)
 			(effects
 				(font
@@ -10539,7 +10539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "RobotHAT:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical_J14"
 			(at 252.73 198.12 0)
 			(effects
 				(font
@@ -10771,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R40"
 			(at 152.4 318.77 0)
 			(effects
 				(font
@@ -11043,7 +11043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R31"
 			(at 156.21 114.3 0)
 			(effects
 				(font
@@ -11311,7 +11311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "RobotHAT:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_J11"
 			(at 250.19 316.23 0)
 			(effects
 				(font
@@ -11586,7 +11586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R41"
 			(at 160.02 331.47 0)
 			(effects
 				(font
@@ -12058,7 +12058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "RobotHAT:D_SOD-323_D4"
 			(at 209.55 190.5 0)
 			(effects
 				(font
@@ -12314,7 +12314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "RobotHAT:SOT-23-5_U7"
 			(at 139.7 180.34 0)
 			(effects
 				(font
@@ -12588,7 +12588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R29"
 			(at 146.05 308.61 0)
 			(effects
 				(font
@@ -12959,7 +12959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "RobotHAT:SOT-23-5_U6"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -13243,7 +13243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R33"
 			(at 201.93 180.34 0)
 			(effects
 				(font

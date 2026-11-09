@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "RobotHAT")(type "KiCad")(uri "${KIPRJMOD}/RobotHAT.pretty")(options "")(descr "Captured native footprints; see qualification notes"))
+)

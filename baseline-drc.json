@@ -1,0 +1,146 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T10:59:46+0100",
+    "kicad_version": "9.0.7",
+    "schematic_parity": [],
+    "source": "elec_RPI_Robot_HAT.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'LCSC_parts_lib'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: J1",
+                    "pos": {
+                        "x": 111.6925,
+                        "y": 80.745
+                    },
+                    "uuid": "05aa95d3-d856-4481-8e80-c174c46dcf74"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'LCSC_parts_lib'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: J9",
+                    "pos": {
+                        "x": 127.5625,
+                        "y": 80.745
+                    },
+                    "uuid": "422ebc0b-c456-487d-b171-217454965e3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'Library_Pollen'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: H3",
+                    "pos": {
+                        "x": 119.494899,
+                        "y": 68.645192
+                    },
+                    "uuid": "556f155c-8174-4fe5-8d97-177c4803ec06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'Library_Pollen'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: G1",
+                    "pos": {
+                        "x": 105.8925,
+                        "y": 62.545
+                    },
+                    "uuid": "7c029bec-3860-42f2-ab45-fa01e2c61fb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'LCSC_parts_lib'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: MK1",
+                    "pos": {
+                        "x": 134.754881,
+                        "y": 69.740001
+                    },
+                    "uuid": "aa982b9d-9979-4c5a-a434-e0876d017a71"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'Library_Pollen'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: H2",
+                    "pos": {
+                        "x": 119.556666,
+                        "y": 66.838566
+                    },
+                    "uuid": "d5c16ce7-df73-4070-bda1-cb0f8e6867a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'LCSC_parts_lib'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: J2",
+                    "pos": {
+                        "x": 121.6925,
+                        "y": 80.745
+                    },
+                    "uuid": "f4f60177-15b5-46a8-ae4e-3977a7815015"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'Library_Pollen'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: J4",
+                    "pos": {
+                        "x": 103.8975,
+                        "y": 58.04
+                    },
+                    "uuid": "1a2c60f8-aeea-470f-946a-686c70f86d9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Den aktuella konfigurationen inkluderar inte fotavtrycksbiblioteket 'LCSC_parts_lib'.",
+            "items": [
+                {
+                    "description": "Fotavtryck: U4",
+                    "pos": {
+                        "x": 119.197501,
+                        "y": 65.415001
+                    },
+                    "uuid": "cc558248-dee7-4f66-951b-10c29d1ae288"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

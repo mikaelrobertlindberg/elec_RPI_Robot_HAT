@@ -31,3 +31,11 @@ fp-info-cache
 *.xml
 #*.csv
 
+# Local investigation and deliberate negative-control board
+audit_board.py
+inspect_results.py
+revise_dfm.py
+sync_footprints.py
+correct_components.py
+baseline-geometry.json
+rule-check.*

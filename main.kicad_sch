@@ -5712,7 +5712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:TDFN-8_L3.0-W2.0-P0.50-BL-EP"
+		(property "Footprint" "RobotHAT:TDFN-8_L3.0-W2.0-P0.50-BL-EP_U4"
 			(at 105.41 144.78 0)
 			(effects
 				(font
@@ -5873,7 +5873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero_SMD_connector"
+		(property "Footprint" "RobotHAT:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero_SMD_connector_J4"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R10"
 			(at 127 132.08 0)
 			(effects
 				(font
@@ -6778,7 +6778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R11"
 			(at 130.81 132.08 0)
 			(effects
 				(font
@@ -7085,7 +7085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C25"
 			(at 113.03 130.81 0)
 			(effects
 				(font

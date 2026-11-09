@@ -1,0 +1,3 @@
+(sym_lib_table
+ (lib (name "Library_Pollen")(type "KiCad")(uri "${KIPRJMOD}/Library_Pollen.kicad_sym")(options "")(descr "Symbols recovered from original embedded definitions"))
+)

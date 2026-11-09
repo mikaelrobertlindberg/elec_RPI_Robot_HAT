@@ -7320,7 +7320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "RobotHAT:L_0402_1005Metric_FB1"
 			(at 182.88 56.388 90)
 			(effects
 				(font
@@ -7481,7 +7481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C1"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -7560,7 +7560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN"
+		(property "Footprint" "RobotHAT:CONN-TH_DB125-2.54-2P-GN_J1"
 			(at 264.16 96.52 0)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C31"
 			(at 59.69 133.35 0)
 			(effects
 				(font
@@ -7724,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm"
+		(property "Footprint" "RobotHAT:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm_Y1"
 			(at 49.53 92.71 0)
 			(effects
 				(font
@@ -7835,7 +7835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C14"
 			(at 29.21 74.93 0)
 			(effects
 				(font
@@ -8084,7 +8084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C11"
 			(at 259.08 128.27 0)
 			(effects
 				(font
@@ -8332,7 +8332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C10"
 			(at 245.11 138.43 0)
 			(effects
 				(font
@@ -8411,7 +8411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RobotHAT:C_0603_1608Metric_C7"
 			(at 238.76 59.69 0)
 			(effects
 				(font
@@ -8824,7 +8824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN"
+		(property "Footprint" "RobotHAT:CONN-TH_DB125-2.54-2P-GN_J2"
 			(at 264.16 31.75 0)
 			(effects
 				(font
@@ -8913,7 +8913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C6"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -9192,7 +9192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RobotHAT:C_0603_1608Metric_C5"
 			(at 222.25 59.69 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R6"
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -9710,7 +9710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C42"
 			(at 228.6 21.59 0)
 			(effects
 				(font
@@ -9788,7 +9788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R2"
 			(at 189.23 83.82 0)
 			(effects
 				(font
@@ -10057,7 +10057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+		(property "Footprint" "RobotHAT:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile_TP3"
 			(at 229.87 86.36 0)
 			(effects
 				(font
@@ -10256,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R5"
 			(at 189.23 96.52 0)
 			(effects
 				(font
@@ -10461,7 +10461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C33"
 			(at 194.31 58.42 0)
 			(effects
 				(font
@@ -10538,7 +10538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R1"
 			(at 189.23 78.74 0)
 			(effects
 				(font
@@ -10940,7 +10940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C41"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -11019,7 +11019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C40"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -11096,7 +11096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "RobotHAT:SOT-23-3_U3"
 			(at 49.53 160.655 0)
 			(effects
 				(font
@@ -11176,7 +11176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R42"
 			(at 212.09 17.78 0)
 			(effects
 				(font
@@ -11254,7 +11254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R22"
 			(at 234.95 21.59 0)
 			(effects
 				(font
@@ -11522,7 +11522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C28"
 			(at 64.77 147.32 0)
 			(effects
 				(font
@@ -11831,7 +11831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+		(property "Footprint" "RobotHAT:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile_TP2"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -11897,7 +11897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "RobotHAT:SOIC-16_3.9x9.9mm_P1.27mm_U1"
 			(at 213.36 88.9 0)
 			(effects
 				(font
@@ -12019,7 +12019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+		(property "Footprint" "RobotHAT:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile_TP4"
 			(at 229.87 88.9 0)
 			(effects
 				(font
@@ -12217,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R3"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -12422,7 +12422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C35"
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -12699,7 +12699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R7"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -12971,7 +12971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C32"
 			(at 64.77 133.35 0)
 			(effects
 				(font
@@ -13209,7 +13209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R36"
 			(at 247.65 41.91 0)
 			(effects
 				(font
@@ -13412,7 +13412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "RobotHAT:L_0402_1005Metric_FB3"
 			(at 247.65 98.298 90)
 			(effects
 				(font
@@ -13759,7 +13759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C30"
 			(at 64.77 107.95 0)
 			(effects
 				(font
@@ -14134,7 +14134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C43"
 			(at 224.79 21.59 0)
 			(effects
 				(font
@@ -14278,7 +14278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm"
+		(property "Footprint" "RobotHAT:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_U2"
 			(at 110.998 98.806 0)
 			(effects
 				(font
@@ -14447,7 +14447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C3"
 			(at 196.85 102.87 0)
 			(effects
 				(font
@@ -14657,7 +14657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R4"
 			(at 189.23 93.98 0)
 			(effects
 				(font
@@ -14993,7 +14993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C29"
 			(at 59.69 107.95 0)
 			(effects
 				(font
@@ -15273,7 +15273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R23"
 			(at 237.49 21.59 0)
 			(effects
 				(font
@@ -15532,7 +15532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "220p"
 			(at 240.03 102.8762 0)
 			(effects
 				(font
@@ -15541,7 +15541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C8"
 			(at 242.57 101.6 0)
 			(effects
 				(font
@@ -15610,7 +15610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "220p"
 			(at 255.27 102.8762 0)
 			(effects
 				(font
@@ -15619,7 +15619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C9"
 			(at 252.73 101.6 0)
 			(effects
 				(font
@@ -15698,7 +15698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C34"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -15843,7 +15843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RobotHAT:C_0603_1608Metric_C12"
 			(at 62.23 171.45 0)
 			(effects
 				(font
@@ -15922,7 +15922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C26"
 			(at 67.31 171.45 0)
 			(effects
 				(font
@@ -16231,7 +16231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN"
+		(property "Footprint" "RobotHAT:CONN-TH_DB125-2.54-2P-GN_J9"
 			(at 264.16 38.1 0)
 			(effects
 				(font
@@ -16384,7 +16384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "RobotHAT:L_0402_1005Metric_FB2"
 			(at 237.49 95.758 90)
 			(effects
 				(font
@@ -16464,7 +16464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:MIC-SMD_4P-L2.8-W1.9-P1.84-TL"
+		(property "Footprint" "RobotHAT:MIC-SMD_4P-L2.8-W1.9-P1.84-TL_MK1"
 			(at 265.43 135.89 90)
 			(effects
 				(font
@@ -16701,7 +16701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C27"
 			(at 59.69 147.32 0)
 			(effects
 				(font
@@ -16780,7 +16780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RobotHAT:C_0603_1608Metric_C37"
 			(at 40.64 127 0)
 			(effects
 				(font
@@ -16990,7 +16990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RobotHAT:R_0402_1005Metric_R37"
 			(at 250.19 41.91 0)
 			(effects
 				(font
@@ -17262,7 +17262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C36"
 			(at 64.77 120.65 0)
 			(effects
 				(font
@@ -17568,7 +17568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C2"
 			(at 179.07 83.82 0)
 			(effects
 				(font
@@ -17647,7 +17647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RobotHAT:C_0603_1608Metric_C13"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -17792,7 +17792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C38"
 			(at 83.82 100.33 0)
 			(effects
 				(font
@@ -18042,7 +18042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RobotHAT:C_0402_1005Metric_C4"
 			(at 218.44 59.69 0)
 			(effects
 				(font
