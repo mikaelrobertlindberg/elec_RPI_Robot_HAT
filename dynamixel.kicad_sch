@@ -6,8 +6,8 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "elec RPI Robot HAT")
-		(date "2026-05-06")
-		(rev "B1")
+		(date "2026-11-09")
+		(rev "D1-M1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -1465,7 +1465,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_UART:SP3485CN"
+		(symbol "Library_Pollen:GM3088ENA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1533,7 +1533,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SP3485CN_0_1"
+			(symbol "GM3088ENA_0_1"
 				(rectangle
 					(start -7.62 12.7)
 					(end 7.62 -12.7)
@@ -1700,7 +1700,7 @@
 					)
 				)
 			)
-			(symbol "SP3485CN_1_1"
+			(symbol "GM3088ENA_1_1"
 				(circle
 					(center -0.762 2.54)
 					(radius 0.508)
@@ -1847,6 +1847,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5818,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "UNI-ROYAL(厚声)"
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -5827,7 +5845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "0402WGF1002TCE"
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -6479,6 +6497,8 @@
 		(pin "3"
 			(uuid "6d87c338-1040-4085-8edd-15c3ef705e14")
 		)
+		(property "Man." "TWGMC(迪嘉)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "MMBT3906" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/dd8df41a-ac53-4462-a3fb-30e558be4c8a"
@@ -7046,7 +7066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "SAMSUNG(三星)"
 			(at 165.1 240.03 0)
 			(effects
 				(font
@@ -7055,7 +7075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "CL05B104KB54PNC"
 			(at 165.1 240.03 0)
 			(effects
 				(font
@@ -7295,7 +7315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "UNI-ROYAL(厚声)"
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -7304,7 +7324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "0402WGF2002TCE"
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -7509,7 +7529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:SP3485CN")
+		(lib_id "Library_Pollen:GM3088ENA")
 		(at 172.72 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7573,7 +7593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Gatemode"
+		(property "Man." "GATEMODE(捷茂微)"
 			(at 172.72 321.31 0)
 			(effects
 				(font
@@ -8278,7 +8298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "SAMSUNG(三星)"
 			(at 148.59 240.03 0)
 			(effects
 				(font
@@ -8287,7 +8307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "CL05B104KB54PNC"
 			(at 148.59 240.03 0)
 			(effects
 				(font
@@ -8528,7 +8548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "UNI-ROYAL(厚声)"
 			(at 189.23 134.62 0)
 			(effects
 				(font
@@ -8537,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "0402WGF1002TCE"
 			(at 189.23 134.62 0)
 			(effects
 				(font
@@ -8944,6 +8964,8 @@
 		(pin "1"
 			(uuid "3059e66e-03be-4c9e-9c04-a74493aa1f5f")
 		)
+		(property "Man." "TI(德州仪器)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "SN74LVC1G08DBVR" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/dd8df41a-ac53-4462-a3fb-30e558be4c8a"
@@ -9006,7 +9028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Murata"
+		(property "Man." "muRata(村田)"
 			(at 219.71 180.34 0)
 			(effects
 				(font
@@ -9406,7 +9428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "SAMSUNG(三星)"
 			(at 163.83 298.45 0)
 			(effects
 				(font
@@ -9415,7 +9437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "CL05B104KB54PNC"
 			(at 163.83 298.45 0)
 			(effects
 				(font
@@ -9845,7 +9867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "UNI-ROYAL(厚声)"
 			(at 107.95 68.58 0)
 			(effects
 				(font
@@ -9854,7 +9876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "0402WGF1002TCE"
 			(at 107.95 68.58 0)
 			(effects
 				(font
@@ -10112,7 +10134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "SAMSUNG(三星)"
 			(at 157.48 240.03 0)
 			(effects
 				(font
@@ -10121,7 +10143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "CL05B104KB54PNC"
 			(at 157.48 240.03 0)
 			(effects
 				(font
@@ -10501,6 +10523,8 @@
 		(pin "3"
 			(uuid "f13e5d73-29bd-4950-8e65-dd7cd9a1036a")
 		)
+		(property "Man." "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "B4B-EH-A(LF)(SN)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/dd8df41a-ac53-4462-a3fb-30e558be4c8a"
@@ -10939,6 +10963,8 @@
 		(pin "1"
 			(uuid "02f6be10-d665-4b62-8f07-5d3de9b44b96")
 		)
+		(property "Man." "UNI-ROYAL(厚声)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "0402WGF0000TCE" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/dd8df41a-ac53-4462-a3fb-30e558be4c8a"
@@ -11070,7 +11096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "UNI-ROYAL(厚声)"
 			(at 156.21 114.3 0)
 			(effects
 				(font
@@ -11079,7 +11105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "0402WGF1002TCE"
 			(at 156.21 114.3 0)
 			(effects
 				(font
@@ -11485,6 +11511,8 @@
 		(pin "3"
 			(uuid "8e9a4067-01e2-4097-865a-f9fab1e7f7eb")
 		)
+		(property "Man." "JST" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "B4B-EH-A(LF)(SN)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/dd8df41a-ac53-4462-a3fb-30e558be4c8a"
@@ -11754,6 +11782,8 @@
 		(pin "1"
 			(uuid "6e3d1ca3-568a-439e-9ee4-0950285f0f12")
 		)
+		(property "Man." "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/dd8df41a-ac53-4462-a3fb-30e558be4c8a"
@@ -12085,7 +12115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Vishay"
+		(property "Man." "DIODES(美台)"
 			(at 209.55 190.5 0)
 			(effects
 				(font
@@ -12094,7 +12124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "BZX384C5V1-E3-08"
+		(property "Man. Ref." "BZT52C5V1S-7-F"
 			(at 209.55 190.5 0)
 			(effects
 				(font
@@ -12341,7 +12371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "TI"
+		(property "Man." "TI(德州仪器)"
 			(at 139.7 180.34 0)
 			(effects
 				(font
@@ -12633,7 +12663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "UNI-ROYAL(厚声)"
 			(at 146.05 308.61 0)
 			(effects
 				(font
@@ -12642,7 +12672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "0402WGF1002TCE"
 			(at 146.05 308.61 0)
 			(effects
 				(font
@@ -12986,7 +13016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "TI(德州仪器)"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -12995,7 +13025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "SN74LVC1G125DBVT"
+		(property "Man. Ref." "SN74LVC1G125DBVR"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -13270,7 +13300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "FRC0402F1500TS"
 			(at 201.93 180.34 0)
 			(effects
 				(font
@@ -13279,7 +13309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "FOJAN(富捷)"
 			(at 201.93 180.34 0)
 			(effects
 				(font

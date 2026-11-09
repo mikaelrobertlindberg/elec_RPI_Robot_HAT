@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "elec RPI Robot HAT")
-		(date "2026-05-06")
-		(rev "B1")
+		(date "2026-11-09")
+		(rev "D1-M1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -2115,7 +2115,635 @@
 			)
 			(embedded_fonts no)
 		)
+	(symbol "Library_Pollen:LM74700QDBVRQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM74700QDBVRQ1"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "RobotHAT:LM74700_DBV_U10"
+				(at 16.51 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf"
+				(at 27.94 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4V to 60V ideal diode controller; DBV 6-pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "positive high-side or-ing ideal-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LM74700*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM74700QDBVRQ1_0_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM74700QDBVRQ1_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 1.27)
+					(name "ANODE"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 1.27)
+					(name "EN"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 1.27)
+					(name "CATHODE"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "VCAP"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	(symbol "Transistor_FET:Q_NMOS_GSD"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Q_NMOS_GSD_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 0.381) (xy 3.683 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Q_NMOS_GSD_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
+	(symbol "Device:D_Schottky"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Schottky_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Schottky_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
 	(text "Switch off\ndetection"
 		(exclude_from_sim no)
 		(at 243.332 125.73 0)
@@ -2129,7 +2757,7 @@
 		)
 		(uuid "4e47e500-f103-4a03-a8dd-4c7ca1ca733b")
 	)
-	(text "5A"
+	(text "2A total"
 		(exclude_from_sim no)
 		(at 204.216 69.85 0)
 		(effects
@@ -2139,7 +2767,7 @@
 		)
 		(uuid "561ba62e-363b-47bb-a943-9533e3dee3fb")
 	)
-	(text "24V"
+	(text "2S battery"
 		(exclude_from_sim no)
 		(at 54.61 48.768 0)
 		(effects
@@ -2163,7 +2791,7 @@
 		)
 		(uuid "d4d53438-c56d-4136-9fc5-461ae395b771")
 	)
-	(text "(i.e. 7s/25c, \nfrom 21V to 29V)"
+	(text "6.0-8.4V M1 input\nSee ORDERING.md"
 		(exclude_from_sim no)
 		(at 52.07 53.848 0)
 		(effects
@@ -2285,12 +2913,7 @@
 		(color 0 0 0 0)
 		(uuid "bd17a5db-9d91-4fe5-9a3d-140cea039dcb")
 	)
-	(junction
-		(at 215.9 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccbfc07d-bc8b-4226-884f-0ee2a6676405")
-	)
+
 	(junction
 		(at 144.78 72.39)
 		(diameter 0)
@@ -2309,16 +2932,8 @@
 		(color 0 0 0 0)
 		(uuid "ecaee9e6-78b0-4f18-8154-651e89bf801a")
 	)
-	(junction
-		(at 215.9 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2aac0fd-2e2e-4707-81c7-c60a034b91ed")
-	)
-	(no_connect
-		(at 190.5 95.25)
-		(uuid "b6bfa267-531b-4c9e-ba47-f9aa29eca94f")
-	)
+
+
 	(bus_entry
 		(at 224.79 125.73)
 		(size -2.54 2.54)
@@ -2348,16 +2963,7 @@
 		)
 		(uuid "099d0889-8319-4fd2-ad20-88f342a156df")
 	)
-	(wire
-		(pts
-			(xy 215.9 88.9) (xy 215.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fea4051-eb36-4f75-a9af-32f358b14de8")
-	)
+
 	(wire
 		(pts
 			(xy 153.67 74.93) (xy 153.67 72.39)
@@ -2508,16 +3114,7 @@
 		)
 		(uuid "479f69d2-790e-495f-98bf-c703cea629f9")
 	)
-	(wire
-		(pts
-			(xy 215.9 72.39) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481fd84b-5181-493a-9871-dc506ad03a5f")
-	)
+
 	(wire
 		(pts
 			(xy 101.6 77.47) (xy 101.6 72.39)
@@ -2748,16 +3345,7 @@
 		)
 		(uuid "a285ffb3-2333-4fea-88d4-50807b1562d3")
 	)
-	(wire
-		(pts
-			(xy 215.9 104.14) (xy 198.12 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55593c3-f846-4098-ba27-7aede6bb9da4")
-	)
+
 	(wire
 		(pts
 			(xy 134.62 72.39) (xy 137.16 72.39)
@@ -2798,16 +3386,7 @@
 		)
 		(uuid "ae91155e-cbf9-40fb-bd72-e1450b901f36")
 	)
-	(wire
-		(pts
-			(xy 215.9 101.6) (xy 215.9 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b282fc-a953-41f6-ac37-e6a378ea41d6")
-	)
+
 	(wire
 		(pts
 			(xy 181.61 72.39) (xy 181.61 85.09)
@@ -4923,7 +5502,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Management:LM5050-1")
+		(lib_id "Library_Pollen:LM74700QDBVRQ1")
 		(at 198.12 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4933,24 +5512,24 @@
 		(fields_autoplaced yes)
 		(uuid "24f2905a-2adb-4ef8-b710-65a4af69afeb")
 		(property "Reference" "U10"
-			(at 200.2633 80.01 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "LM5050-1"
-			(at 200.2633 82.55 0)
+		(property "Value" "LM74700QDBVRQ1"
+			(at 187.96 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "RobotHAT:TSOT-23-6_U10"
+		(property "Footprint" "RobotHAT:LM74700_DBV_U10"
 			(at 214.63 101.6 0)
 			(effects
 				(font
@@ -4959,7 +5538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf"
 			(at 226.06 93.98 0)
 			(effects
 				(font
@@ -4968,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6"
+		(property "Description" "Low-voltage ideal diode controller, DBV SOT-23-6"
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -4977,7 +5556,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C473393"
+		(property "LCSC Part" "C2941042"
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -5013,6 +5592,8 @@
 		(pin "1"
 			(uuid "cb59a098-8684-4a51-8179-23c6fa1523c5")
 		)
+		(property "Man." "Texas Instruments" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "LM74700QDBVRQ1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
@@ -5050,7 +5631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RobotHAT:CP_Elec_6.3x7.7_C19"
+		(property "Footprint" "RobotHAT:Panasonic_FK_D_6.3x5.8_C19"
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -5059,7 +5640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf"
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -5095,7 +5676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Kemet"
+		(property "Man." "Panasonic"
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -5104,7 +5685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "EDK106M100A9HAA"
+		(property "Man. Ref." "EEE-FK1J100P"
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -5113,7 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C72488"
+		(property "LCSC Part" ""
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -5238,24 +5819,24 @@
 		(dnp no)
 		(uuid "3e3db670-f199-408c-b66a-1108b7a1fd96")
 		(property "Reference" "C39"
-			(at 222.25 96.52 0)
+			(at 223.52 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "100n 6V3"
-			(at 227.33 101.6 0)
+		(property "Value" "220n 50V"
+			(at 223.52 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "RobotHAT:C_0402_1005Metric_C39"
+		(property "Footprint" "RobotHAT:C_0805_C39"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -5273,7 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capa 0402"
+		(property "Description" "Charge pump capacitor: VCAP to REG_5V"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -5282,7 +5863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "Murata"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -5291,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "GRM21BR71H224KA01L"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -5318,7 +5899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" "C86042"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -5638,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54wt1-d.pdf"
 			(at 181.61 88.9 0)
 			(effects
 				(font
@@ -5656,7 +6237,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C78606"
+		(property "LCSC Part" ""
 			(at 181.61 88.9 90)
 			(effects
 				(font
@@ -5665,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Nexperia"
+		(property "Man." "onsemi"
 			(at 181.61 88.9 90)
 			(effects
 				(font
@@ -5674,7 +6255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "BAT54SW,115"
+		(property "Man. Ref." "BAT54WT1G"
 			(at 181.61 88.9 90)
 			(effects
 				(font
@@ -5780,6 +6361,8 @@
 		(pin "1"
 			(uuid "ca298338-931e-4ab4-8813-76ecb7bdbdde")
 		)
+		(property "Man." "R+O(宏嘉诚)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "BZT52B3V3" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
@@ -5991,7 +6574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Diodes Inc."
+		(property "Man." "DIODES(美台)"
 			(at 114.3 74.93 0)
 			(effects
 				(font
@@ -6000,7 +6583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "AP63205WU"
+		(property "Man. Ref." "AP63205WU-7"
 			(at 114.3 74.93 0)
 			(effects
 				(font
@@ -6154,7 +6737,7 @@
 				)
 			)
 		)
-		(property "Value" "6,8u 2A"
+		(property "Value" "4u7 4.5A"
 			(at 139.7 69.215 90)
 			(effects
 				(font
@@ -6162,7 +6745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RobotHAT:L_Bourns_SRN6045TA_L4"
+		(property "Footprint" "RobotHAT:Eaton_SDCHA1V6045_L4"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -6180,7 +6763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor 6,8u 2A 6x6 mm"
+		(property "Description" "4.7uH shielded inductor"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -6207,7 +6790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Bourns"
+		(property "Man." "Eaton"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -6216,7 +6799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "SRN6045TA-6R8M"
+		(property "Man. Ref." "SDCHA1V6045-4R7-R"
 			(at 139.7 72.39 0)
 			(effects
 				(font
@@ -6225,7 +6808,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C57254"
+		(property "LCSC Part" ""
 			(at 139.7 72.39 90)
 			(effects
 				(font
@@ -6400,6 +6983,8 @@
 		(pin "2"
 			(uuid "9b49d9f4-7554-4539-87b8-fa5c0ed29e0e")
 		)
+		(property "Man." "SAMSUNG(三星)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "CL05B103KB5NNNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
@@ -6427,7 +7012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u 6V3"
+		(property "Value" "47u 16V"
 			(at 154.94 80.01 0)
 			(effects
 				(font
@@ -6437,7 +7022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RobotHAT:C_0603_1608Metric_C22"
+		(property "Footprint" "RobotHAT:C_1206_C22"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -6491,7 +7076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "GRM188R61A226ME15D"
+		(property "Man. Ref." "GRM31CR61C476ME44L"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -6500,7 +7085,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84419"
+		(property "LCSC Part" "C385047"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -6606,7 +7191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 198.12 74.93 270)
 		(mirror x)
 		(unit 1)
@@ -6616,20 +7201,20 @@
 		(dnp no)
 		(uuid "988dc998-a0db-43a1-8867-b61a4cf99d49")
 		(property "Reference" "Q2"
-			(at 198.12 68.58 90)
+			(at 198.12 66.04 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.1 1.1)
 				)
 			)
 		)
-		(property "Value" "N-Channel 5A"
-			(at 198.12 68.58 90)
+		(property "Value" "DMN3023L-7"
+			(at 205.74 66.04 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0 1.0)
 				)
-				(hide yes)
+
 			)
 		)
 		(property "Footprint" "RobotHAT:TSOT-23_Q2"
@@ -6641,7 +7226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN3023L.pdf"
 			(at 198.12 74.93 0)
 			(effects
 				(font
@@ -6650,7 +7235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
+		(property "Description" "Enhancement-mode N-channel MOSFET, G1 S2 D3; +/-20V gate"
 			(at 198.12 74.93 0)
 			(effects
 				(font
@@ -6659,7 +7244,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22469448"
+		(property "LCSC Part" "C443825"
 			(at 198.12 74.93 90)
 			(effects
 				(font
@@ -6677,6 +7262,8 @@
 		(pin "2"
 			(uuid "f295ca4d-06c2-41b1-bfcb-f8a0c5ba8fc6")
 		)
+		(property "Man." "Diodes Incorporated" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "DMN3023L-7" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
@@ -6686,85 +7273,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 215.9 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b78381e0-d350-46d9-bce3-22d3b553a97c")
-		(property "Reference" "R8"
-			(at 218.44 85.0899 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 218.44 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RobotHAT:R_0402_1005Metric_R8"
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2906860"
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f65c57df-d5ae-4fae-a0cc-0060d8c9f1b1")
-		)
-		(pin "1"
-			(uuid "8cc4c0c6-aa6e-4424-826e-d4a93fdebcc8")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:GND")
 		(at 153.67 85.09 0)
@@ -6887,7 +7396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." ""
+		(property "Man." "UNI-ROYAL(厚声)"
 			(at 199.39 124.46 0)
 			(effects
 				(font
@@ -6896,7 +7405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." ""
+		(property "Man. Ref." "0402WGF1002TCE"
 			(at 199.39 124.46 0)
 			(effects
 				(font
@@ -7170,6 +7679,8 @@
 		(pin "1"
 			(uuid "37e6d9a0-c3b6-42c3-862e-b481d33561ac")
 		)
+		(property "Man." "Chinocera(华瓷)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "HGC0805R5106K350NSLJ" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
@@ -7451,7 +7962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "Eurocircuit"
+		(property "Man." "SAMSUNG(三星)"
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -7460,7 +7971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "GPC0402104"
+		(property "Man. Ref." "CL05B104KB54PNC"
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -7726,7 +8237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u 6V3"
+		(property "Value" "47u 16V"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -7735,7 +8246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RobotHAT:C_0603_1608Metric_C21"
+		(property "Footprint" "RobotHAT:C_1206_C21"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -7789,7 +8300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "GRM188R61A226ME15D"
+		(property "Man. Ref." "GRM31CR61C476ME44L"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -7798,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84419"
+		(property "LCSC Part" "C385047"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -7969,4 +8480,39 @@
 			)
 		)
 	)
+
+	(label "REG_5V" (at 187.96 72.39 0) (effects (font (size 1.0 1.0)) (justify right bottom)) (uuid "d10ea2ad-694a-44b0-aa99-6b74e796055c"))
+
+	(label "REG_5V" (at 190.5 95.25 0) (effects (font (size 1.0 1.0)) (justify right bottom)) (uuid "18673e14-d59c-4c93-9a0b-7ede1fb2910f"))
+
+	(label "REG_5V" (at 215.9 101.6 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d1b2b96f-1ba8-4d8b-9e2d-4f7df1291902"))
+
+	(symbol (lib_id "power:PWR_FLAG") (at 187.96 72.39 0) (unit 1)
+ (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e9350724-c965-4c57-b015-3b3fcc9c2095")
+ (property "Reference" "#FLG0101" (at 187.96 74.93 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Value" "PWR_FLAG" (at 187.96 69.85 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Footprint" "" (at 187.96 72.39 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "~" (at 187.96 72.39 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "0e114283-f662-4ab5-8d5d-c0cd3adc7fcd"))
+ (instances (project "elec_RPI_Robot_HAT" (path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05" (reference "#FLG0101") (unit 1)))))
+
+(symbol (lib_id "Device:D_Schottky") (at 250.19 86.36 180) (unit 1)
+ (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d2be7706-7a62-419d-bca4-bd9191089b71")
+ (property "Reference" "D5" (at 250.19 81.28 0) (effects (font (size 1.27 1.27))))
+ (property "Value" "SBR3U40P1-7" (at 250.19 83.82 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "RobotHAT:D_PowerDI123_D5" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31164.pdf" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Description" "3A 40V SBR cold-start path, PowerDI123; A=REG_5V K=+5V" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Man." "Diodes Incorporated" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "Man. Ref." "SBR3U40P1-7" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (property "LCSC Part" "C97127" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "fe558f44-4a21-419f-8d49-4e661cc189e4")) (pin "2" (uuid "d0fe6ba6-1798-4ba4-bba7-d093739d4177"))
+ (instances (project "elec_RPI_Robot_HAT" (path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05" (reference "D5") (unit 1)))))
+(label "REG_5V" (at 246.38 86.36 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "5383e20d-90f4-42d7-8310-4dbd39641d2d"))
+(symbol (lib_id "power:+5V") (at 254 86.36 0) (unit 1)
+ (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "618a7277-639a-4724-984c-01d8a8d7ff72")
+ (property "Reference" "#PWR0101" (at 254 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "+5V" (at 254 81.28 0) (effects (font (size 1.27 1.27))))
+ (property "Footprint" "" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "~" (at 250.19 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+ (pin "1" (uuid "97d61550-1360-4637-bc63-d19f82d84338"))
+ (instances (project "elec_RPI_Robot_HAT" (path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05" (reference "#PWR0101") (unit 1)))))
 )

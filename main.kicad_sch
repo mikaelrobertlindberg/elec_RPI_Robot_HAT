@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "elec RPI Robot HAT")
-		(date "2026-05-06")
-		(rev "B1")
+		(date "2026-11-09")
+		(rev "D1-M1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -5772,6 +5772,8 @@
 		(pin "6"
 			(uuid "dda2904a-a4cc-4ad2-9153-7970114586d3")
 		)
+		(property "Man." "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749"
@@ -6239,6 +6241,8 @@
 		(pin "MP"
 			(uuid "2d06e725-17b1-43ee-9129-6d6d892c1f0c")
 		)
+		(property "Man." "Liansheng(连盛)" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "FH-00339" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749"

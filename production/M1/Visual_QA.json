@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-09",
+  "pdfs": [
+    {
+      "file": "fabrication/elec_RPI_Robot_HAT-NPTH-drl_map.pdf",
+      "pages": 1,
+      "sha256": "13662dbaf9e5c4c50a8d6f5ef263487f3b240927612cdb4ea050768e5540eb3e",
+      "review": "Rendered pages visually inspected; final changed power sheet and assembly sheets rechecked."
+    },
+    {
+      "file": "fabrication/elec_RPI_Robot_HAT-PTH-drl_map.pdf",
+      "pages": 1,
+      "sha256": "4b4bb334cbb1bfd3141744922b2001c26c8ca22a7965cbc4c6102a67498ab351",
+      "review": "Rendered pages visually inspected; final changed power sheet and assembly sheets rechecked."
+    },
+    {
+      "file": "Robot_HAT_M1_assembly_bottom.pdf",
+      "pages": 1,
+      "sha256": "4c7030c810eb3a7193bf1ee9750afb595328f5387d17a82aec080457239b7c06",
+      "review": "Rendered pages visually inspected; final changed power sheet and assembly sheets rechecked."
+    },
+    {
+      "file": "Robot_HAT_M1_assembly_top.pdf",
+      "pages": 1,
+      "sha256": "e8a0442c3995ff83ab9ddc707891e9240a54c542ce2ae691907d04196f6e9a5e",
+      "review": "Rendered pages visually inspected; final changed power sheet and assembly sheets rechecked."
+    },
+    {
+      "file": "Robot_HAT_M1_schematic.pdf",
+      "pages": 6,
+      "sha256": "36efad76cbe6a39b3160287f82f17c4aca72d49b4b0741c2c96b9abb71bed226",
+      "review": "Rendered pages visually inspected; final changed power sheet and assembly sheets rechecked."
+    }
+  ],
+  "gerber_preview": "All four exported copper layers rendered and visually inspected; numerical checks in Independent_verification.json.",
+  "scope": "Readability and gross geometry; not physical prototype testing."
+}

@@ -1,0 +1,131 @@
+{
+  "pads": [
+    {
+      "pin": "1",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "Net-(U12-SDO{slash}SA0)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "2",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "Net-(U12-SDX)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "3",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "Net-(U12-SCX)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "4",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "Net-(U12-INT1)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "5",
+      "size_mm": [
+        0.3,
+        0.625
+      ],
+      "net": "Net-(U12-VDD)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "6",
+      "size_mm": [
+        0.3,
+        0.625
+      ],
+      "net": "GND",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "7",
+      "size_mm": [
+        0.3,
+        0.625
+      ],
+      "net": "GND",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "8",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "Net-(U12-VDD)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "9",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "Net-(U12-INT2)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "10",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "unconnected-(U12-OCS_Aux-Pad10)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "11",
+      "size_mm": [
+        0.625,
+        0.3
+      ],
+      "net": "unconnected-(U12-SDO_Aux-Pad11)",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "12",
+      "size_mm": [
+        0.3,
+        0.625
+      ],
+      "net": "+3V3",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "13",
+      "size_mm": [
+        0.3,
+        0.625
+      ],
+      "net": "/Schematic/Audio/IO_03",
+      "local_mask_margin_nm": null
+    },
+    {
+      "pin": "14",
+      "size_mm": [
+        0.3,
+        0.625
+      ],
+      "net": "/Schematic/Audio/IO_02",
+      "local_mask_margin_nm": null
+    }
+  ],
+  "negative_control_clearance_count": 2
+}

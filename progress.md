@@ -1,11 +1,12 @@
-# Robot HAT PCBWay revision
+# Robot HAT D1-M1
 
-Work in progress; not a manufacturing release.
+Completed native design for ten PCBA prototypes, Pi Zero2W / Microduck,2S6.0–8.4V,5V2A combined budget.
 
-- Fork created from upstream 6de86283297e4c49a9da8312cd3395ab83c437e3.
-- Baseline: 9 missing-private-library warnings, zero unconnected items, zero schematic parity findings under upstream 0.15 mm rules. Prior PR's 346 findings are not this project's measured baseline.
-- Candidate: local footprint/symbol libraries supplied; U12 pads narrowed to 0.30 mm; C8/C9 corrected to 220 pF with Diodes EVB source. Native DRC/parity and ERC have reached zero; final rerun recorded in candidate reports.
-- Preserve board outline, mounting holes and Pi Zero connector interface.
-- Investigate C8/C9 audio circuitry, FB1 load and C19 input voltage before substitutions.
-- Next: finish component qualification/stock check, resolve stackup inconsistency, independently inspect connectivity/retur paths, generate and inspect reconciled manufacturing package. See QUALIFICATION.md for release blockers. Supplier stock panel unavailable in side browser; no stock claims made.
-- No manufacturing approval or supplier response sent.
+- Fork baseline6de8628; local libraries, U12 copper/mask spacing, C8/C9 filter values, corrected exact parts and pinouts.
+- Power ECO: LM74700, DMN3023L, SBR3U40P1 startup rectifier,220nF qualified chargepump, Eaton4.7uH and2x47uF bias-qualified output. R8 removed.
+- Sourcing44 datedrows,113 fitted components/board,43 uniqueMPNs. Exact stock sufficient for ten plus stated spares; C39 NRND intentional batch selection.
+- Native all-severityDRC0/unconnected0/parity0/ERC0. U12 oversizedpad negativecontrol detects errors.
+- Independent native physical copper check:2111shapes,407pads,74connectednets;0disconnected/0shorts. Deliberateopen/short controls detected. PCB SHAc81cfaddd14d99ccb39da780481cf95eba0c403e1bb88e17e0a5df1c117468d7.
+- M1 fabrication/stencil/BOM/CPL/schema exported. Independent Gerber verification passed:193drillprimitives, U12copper/maskgap0.20mm,420copperislands with0cross-netshorts;306powertrackschecked. Improved assemblyPDFs visually inspected. Final readable power sheet exported; native ERC/DRC/parity0. Coherent manifest/archive built and ZIP hashes verified. Gitcommit/push pending.
+- Artifacts: production/M1; instructionsORDERING.md, qualificationQUALIFICATION.md, calculations/pinouts in reviewdocuments. OriginalD1 production files remain historical.
+- No assembled hardwaretested, orderplaced or suppliermessages sent. New PCBWayprice needed for revisedM1.

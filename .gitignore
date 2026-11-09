@@ -29,6 +29,7 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
+!production/M1/netlist.xml
 #*.csv
 
 # Local investigation and deliberate negative-control board
@@ -39,3 +40,54 @@ sync_footprints.py
 correct_components.py
 baseline-geometry.json
 rule-check.*
+
+# M1 local investigations and preview cache
+.audit/
+C39-curve.png
+RobotHAT.pretty/D_SMA_D5.kicad_mod
+__pycache__/
+add_start_diode_metadata.py
+add_startup_diode.py
+apply_parts.py
+cleanup_power.py
+d5-final-drc.json
+d5-first-drc.json
+d5-powerdi-drc.json
+exact_symbols.py
+exact_umw_symbol.py
+export_route.py
+finalize_native.py
+finalize_release_native.py
+finish_d5_ground.py
+finish_power_routes.py
+footprint-import.kicad_pcb
+layout_probe.py
+old-raw-tracks.json
+original_track_ids.py
+power-finish-drc.json
+power-import.kicad_pcb
+power-revised-erc.json
+power-route-drc.json
+power-unrouted-drc.json
+prepare_parts.py
+remove_stubs.py
+repair-final-drc.json
+repair-initial.json
+repair-stage2.json
+repair-stage3.json
+repair-stage4.json
+repair_routes_native.py
+replace_startup_diode.py
+restore_sheet_population.py
+rework_power.py
+route-before-own.kicad_pcb
+route-geometry.json
+route_power.py
+route_repair_stage2.py
+route_repair_stage3.py
+route_repair_stage4.py
+route_repair_stage5.py
+swig_probe.py
+sync_board_dnp.py
+sync_metadata.py
+write_sourcing.py

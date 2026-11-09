@@ -1,0 +1,790 @@
+{
+  "C1": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C10": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C2": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C27": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C29": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C3": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C31": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C33": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C35": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C4": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C40": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C41": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C42": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C43": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C6": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "quoted_value": "1u"
+  },
+  "C11": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C14": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C15": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C16": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C17": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C18": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C26": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C28": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C30": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C32": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C36": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C38": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n"
+  },
+  "C12": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL10A106MQ8NNNC",
+    "lcsc": "C1691",
+    "quoted_value": "10u"
+  },
+  "C13": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL10A106MQ8NNNC",
+    "lcsc": "C1691",
+    "quoted_value": "10u"
+  },
+  "C37": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL10A106MQ8NNNC",
+    "lcsc": "C1691",
+    "quoted_value": "10u"
+  },
+  "C5": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL10A106MQ8NNNC",
+    "lcsc": "C1691",
+    "quoted_value": "10u"
+  },
+  "C7": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL10A106MQ8NNNC",
+    "lcsc": "C1691",
+    "quoted_value": "10u"
+  },
+  "C19": {
+    "manufacturer": "Panasonic",
+    "mpn": "EEE-FK1J100P",
+    "lcsc": "",
+    "quoted_value": "10u 63V",
+    "value": "10u 63V",
+    "datasheet": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf"
+  },
+  "C20": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KB54PNC",
+    "lcsc": "C307331",
+    "quoted_value": "100n 50V"
+  },
+  "C21": {
+    "manufacturer": "Murata",
+    "mpn": "GRM31CR61C476ME44L",
+    "lcsc": "C385047",
+    "quoted_value": "22u 6V3",
+    "value": "47u 16V"
+  },
+  "C22": {
+    "manufacturer": "Murata",
+    "mpn": "GRM31CR61C476ME44L",
+    "lcsc": "C385047",
+    "quoted_value": "22u 6V3",
+    "value": "47u 16V"
+  },
+  "C23": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "quoted_value": "100n 6V3",
+    "value": "100n 16V"
+  },
+  "C24": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "quoted_value": "100n 6V3",
+    "value": "100n 16V"
+  },
+  "C39": {
+    "manufacturer": "Murata",
+    "mpn": "GRM21BR71H224KA01L",
+    "lcsc": "C86042",
+    "quoted_value": "100n 6V3",
+    "value": "220n 50V"
+  },
+  "C25": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-100n"
+  },
+  "C34": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B103KB5NNNC",
+    "lcsc": "C15195",
+    "quoted_value": "10n"
+  },
+  "C44": {
+    "manufacturer": "SAMSUNG(三星)",
+    "mpn": "CL05B103KB5NNNC",
+    "lcsc": "C15195",
+    "quoted_value": "10n"
+  },
+  "C45": {
+    "manufacturer": "Chinocera(华瓷)",
+    "mpn": "HGC0805R5106K350NSLJ",
+    "lcsc": "C33546007",
+    "quoted_value": "10u 35V"
+  },
+  "C8": {
+    "manufacturer": "muRata(村田)",
+    "mpn": "GRM1555C1H221JA01D",
+    "lcsc": "C71693",
+    "quoted_value": "220n",
+    "value": "220p 50V C0G"
+  },
+  "C9": {
+    "manufacturer": "muRata(村田)",
+    "mpn": "GRM1555C1H221JA01D",
+    "lcsc": "C71693",
+    "quoted_value": "220n",
+    "value": "220p 50V C0G"
+  },
+  "D1": {
+    "manufacturer": "onsemi",
+    "mpn": "BAT54WT1G",
+    "lcsc": "",
+    "quoted_value": "BAT54W",
+    "value": "BAT54W",
+    "datasheet": "https://www.onsemi.com/pdf/datasheet/bat54wt1-d.pdf"
+  },
+  "D2": {
+    "manufacturer": "R+O(宏嘉诚)",
+    "mpn": "BZT52B3V3",
+    "lcsc": "C19077392",
+    "quoted_value": "3V3 Zener Diode"
+  },
+  "D4": {
+    "manufacturer": "DIODES(美台)",
+    "mpn": "BZT52C5V1S-7-F",
+    "lcsc": "C151348",
+    "quoted_value": "5V1"
+  },
+  "FB1": {
+    "manufacturer": "muRata(村田)",
+    "mpn": "BLM15AG601SN1D",
+    "lcsc": "C76884",
+    "quoted_value": "1.3A 600R@100MHz",
+    "value": "0.3A 600R@100MHz"
+  },
+  "FB2": {
+    "manufacturer": "muRata(村田)",
+    "mpn": "BLM15PX121SN1D",
+    "lcsc": "C88970",
+    "quoted_value": "2A - 120R@100MHz"
+  },
+  "FB3": {
+    "manufacturer": "muRata(村田)",
+    "mpn": "BLM15PX121SN1D",
+    "lcsc": "C88970",
+    "quoted_value": "2A - 120R@100MHz"
+  },
+  "G1": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "qwiic_Logo"
+  },
+  "H2": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "Logo HF 2025"
+  },
+  "J1": {
+    "manufacturer": "DORABO(地博电气)",
+    "mpn": "DB125-2.54-2P-GN-S",
+    "lcsc": "C918120",
+    "quoted_value": "Screw term."
+  },
+  "J2": {
+    "manufacturer": "DORABO(地博电气)",
+    "mpn": "DB125-2.54-2P-GN-S",
+    "lcsc": "C918120",
+    "quoted_value": "Screw term."
+  },
+  "J9": {
+    "manufacturer": "DORABO(地博电气)",
+    "mpn": "DB125-2.54-2P-GN-S",
+    "lcsc": "C918120",
+    "quoted_value": "Screw term."
+  },
+  "J11": {
+    "manufacturer": "JST",
+    "mpn": "B4B-EH-A(LF)(SN)",
+    "lcsc": "C160258",
+    "quoted_value": "Dynamixel-4"
+  },
+  "J3": {
+    "manufacturer": "JST",
+    "mpn": "B4B-EH-A(LF)(SN)",
+    "lcsc": "C160258",
+    "quoted_value": "Dynamixel-4"
+  },
+  "J13": {
+    "manufacturer": "JST",
+    "mpn": "B3B-EH-A(LF)(SN)",
+    "lcsc": "C160259",
+    "quoted_value": "Dynamixel-3"
+  },
+  "J14": {
+    "manufacturer": "JST",
+    "mpn": "B3B-EH-A(LF)(SN)",
+    "lcsc": "C160259",
+    "quoted_value": "Dynamixel-3"
+  },
+  "J4": {
+    "manufacturer": "Liansheng(连盛)",
+    "mpn": "FH-00339",
+    "lcsc": "C2685112",
+    "quoted_value": "Female Header 2x20 SMD"
+  },
+  "J5": {
+    "manufacturer": "JST",
+    "mpn": "BM04B-SRSS-TB(LF)(SN)",
+    "lcsc": "C160390",
+    "quoted_value": "JST SH"
+  },
+  "J6": {
+    "manufacturer": "JST",
+    "mpn": "BM04B-SRSS-TB(LF)(SN)",
+    "lcsc": "C160390",
+    "quoted_value": "JST SH"
+  },
+  "J7": {
+    "manufacturer": "JST",
+    "mpn": "BM04B-SRSS-TB(LF)(SN)",
+    "lcsc": "C160390",
+    "quoted_value": "JST SH"
+  },
+  "J8": {
+    "manufacturer": "JST",
+    "mpn": "BM04B-SRSS-TB(LF)(SN)",
+    "lcsc": "C160390",
+    "quoted_value": "JST SH"
+  },
+  "L4": {
+    "manufacturer": "Eaton",
+    "mpn": "SDCHA1V6045-4R7-R",
+    "lcsc": "",
+    "quoted_value": "6,8u 2A",
+    "value": "4u7 4.5A"
+  },
+  "MK1": {
+    "manufacturer": "LinkMems(聆麦声学)",
+    "mpn": "LMA2718T421-OA5-2",
+    "lcsc": "C7587901",
+    "quoted_value": "Microphone_MEMS"
+  },
+  "Q1": {
+    "manufacturer": "TWGMC(迪嘉)",
+    "mpn": "MMBT3906",
+    "lcsc": "C727128",
+    "quoted_value": "MMBT3906"
+  },
+  "Q2": {
+    "manufacturer": "Diodes Incorporated",
+    "mpn": "DMN3023L-7",
+    "lcsc": "C443825",
+    "quoted_value": "N-Channel 5A",
+    "value": "DMN3023L-7",
+    "datasheet": "https://www.diodes.com/datasheet/download/DMN3023L.pdf"
+  },
+  "R1": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R12": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R13": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R2": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R20": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R21": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R24": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R26": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R27": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R29": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R31": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R32": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R34": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R35": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R38": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R39": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R6": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "quoted_value": "10k"
+  },
+  "R10": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-10k"
+  },
+  "R11": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-10k"
+  },
+  "R14": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R15": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R18": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R19": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R25": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R3": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R30": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R4": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R40": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R5": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R7": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R9": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF0000TCE",
+    "lcsc": "C17168",
+    "quoted_value": "0R"
+  },
+  "R16": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-0R"
+  },
+  "R17": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-0R"
+  },
+  "R41": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-0R"
+  },
+  "R22": {
+    "manufacturer": "YAGEO(国巨)",
+    "mpn": "RC0402FR-074K7L",
+    "lcsc": "C105871",
+    "quoted_value": "4k7"
+  },
+  "R23": {
+    "manufacturer": "YAGEO(国巨)",
+    "mpn": "RC0402FR-074K7L",
+    "lcsc": "C105871",
+    "quoted_value": "4k7"
+  },
+  "R28": {
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "mpn": "0402WGF2002TCE",
+    "lcsc": "C25765",
+    "quoted_value": "20k"
+  },
+  "R33": {
+    "manufacturer": "FOJAN(富捷)",
+    "mpn": "FRC0402F1500TS",
+    "lcsc": "C2909321",
+    "quoted_value": "150R"
+  },
+  "R36": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-1M"
+  },
+  "R37": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-1M"
+  },
+  "R42": {
+    "manufacturer": "YAGEO(国巨)",
+    "mpn": "RC0402JR-071KL",
+    "lcsc": "C105637",
+    "quoted_value": "1k"
+  },
+  "TH1": {
+    "manufacturer": "muRata(村田)",
+    "mpn": "PRG18BB101MB1RB",
+    "lcsc": "C913703",
+    "quoted_value": "100R thermistor"
+  },
+  "TP2": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "TestPoint"
+  },
+  "TP3": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "TestPoint"
+  },
+  "TP4": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "TestPoint"
+  },
+  "TP5": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "TestPoint"
+  },
+  "U1": {
+    "manufacturer": "DIODES(美台)",
+    "mpn": "PAM8406DR",
+    "lcsc": "C86270",
+    "quoted_value": "PAM8406D"
+  },
+  "U10": {
+    "manufacturer": "Texas Instruments",
+    "mpn": "LM74700QDBVRQ1",
+    "lcsc": "C2941042",
+    "quoted_value": "LM5050-1",
+    "value": "LM74700QDBVRQ1",
+    "datasheet": "https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf"
+  },
+  "U12": {
+    "manufacturer": "ST(意法半导体)",
+    "mpn": "LSM6DSV16XTR",
+    "lcsc": "C5267406",
+    "quoted_value": "LSM6DSV16XTR",
+    "datasheet": "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf"
+  },
+  "U2": {
+    "manufacturer": "TI(德州仪器)",
+    "mpn": "TLV320AIC3104IRHBR",
+    "lcsc": "C181753",
+    "quoted_value": "TLV320AIC3104IRHBR"
+  },
+  "U3": {
+    "manufacturer": "UMW(友台半导体)",
+    "mpn": "XC6206P182MR",
+    "lcsc": "C347373",
+    "quoted_value": "XC6206P182MR",
+    "datasheet": "https://www.lcsc.com/datasheet/C347373.pdf"
+  },
+  "U4": {
+    "manufacturer": "",
+    "mpn": "",
+    "lcsc": "",
+    "quoted_value": "DNP-CAT24C32HU4"
+  },
+  "U5": {
+    "manufacturer": "TI(德州仪器)",
+    "mpn": "SN74LVC1G08DBVR",
+    "lcsc": "C7666",
+    "quoted_value": "74LVC1G08"
+  },
+  "U6": {
+    "manufacturer": "TI(德州仪器)",
+    "mpn": "SN74LVC1G125DBVR",
+    "lcsc": "C23654",
+    "quoted_value": "SN74LVC1G125DBV"
+  },
+  "U7": {
+    "manufacturer": "TI(德州仪器)",
+    "mpn": "SN74LVC1G126DBVR",
+    "lcsc": "C7834",
+    "quoted_value": "SN74LVC1G126DBVR"
+  },
+  "U8": {
+    "manufacturer": "GATEMODE(捷茂微)",
+    "mpn": "GM3088ENA",
+    "lcsc": "C49423279",
+    "quoted_value": "GM3088ENA"
+  },
+  "U9": {
+    "manufacturer": "DIODES(美台)",
+    "mpn": "AP63205WU-7",
+    "lcsc": "C2071056",
+    "quoted_value": "AP63205"
+  },
+  "Y1": {
+    "manufacturer": "YXC(扬兴晶振)",
+    "mpn": "OT3EL89CJI-111YLC-12M",
+    "lcsc": "C7425459",
+    "quoted_value": "12 MHz"
+  },
+  "D5": {
+    "manufacturer": "Diodes Incorporated",
+    "mpn": "SBR3U40P1-7",
+    "lcsc": "C97127",
+    "value": "SBR3U40P1-7",
+    "datasheet": "https://www.diodes.com/datasheet/download/SBR3U40P1.pdf"
+  }
+}

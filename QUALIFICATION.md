@@ -1,36 +1,33 @@
-# PCBWay candidate — not released for manufacture
+# Robot HAT D1-M1 qualification record
 
-Upstream baseline: 6de86283297e4c49a9da8312cd3395ab83c437e3.
-Review date: 2026-11-09. Target: ten assembled boards, Pi Zero 2 W interface retained.
+Target: ten assembled prototype boards for Raspberry Pi Zero 2 W / Microduck, 2S battery6.0–8.4V. Upstream baseline6de86283297e4c49a9da8312cd3395ab83c437e3. Review2026-11-09.
 
-## Confirmed changes
+## Completed design qualification
 
-- U12 LSM6DSV16X narrow pad dimension reduced from 0.35 to 0.30 mm on all 14 pads. Pad centers, nets and component placement retained. Adjacent parallel pad edges now have 0.20 mm copper spacing. A dedicated 0.19 mm PCBWay rule is exercised by a negative control in `verify_geometry.py`.
-- Mask/paste apertures follow the narrowed pads; stencil and solder-joint process still require assembler review. This is not a claim of preserved original paste aperture area.
-- Original embedded footprints and missing private symbols are supplied locally. Schematic footprint assignments match the board.
-- C8/C9 corrected from 220 nF to 220 pF in schematic and PCB. Their existing BOM MPN is Murata GRM1555C1H221JA01D (LCSC C71693), 220 pF / 50 V / C0G / 0402. They are after FB2/FB3 at the BTL speaker output, not supply decoupling.
+U12 retains its location and pin map. Fourteen pads have0.30mm narrow dimension, giving0.20mm copper spacing at0.50mm pitch. An explicit0.19mm supplier rule is exercised by verify_geometry.py, which deliberately restores an oversized pad. No DRC exclusions substitute for correction.
 
-## Basis for the audio correction
+C8/C9 are220pF C0G output EMI shunts, not220nF bypass capacitors. Diodes PAM8406 evaluation guide page3 confirms their role. FB2/3 retain exact original ferrites; FB1 label now matches its300mA analog-supply ferrite on a path separate from output power.
 
-Diodes PAM8406 EVB User Guide, page 3, lists 220 pF output EMI capacitors with 2 A / 120 ohm ferrites. The native netlist places HAT C8/C9 in that same circuit role. This supports the original MPN and identifies the 220 nF label as the inconsistent item. A 220 nF shunt would present 1000 times the capacitive switching load at a given frequency; it is not an interchangeable bypass value.
+D1 is single BAT54WT1G with verified pin mapping. C19 is Panasonic EEE-FK1J100P10uF63V with manufacturer land pattern. U10 is LM74700QDBVRQ1; R8 removed; C39 is qualified220nF charge-pump capacitor betweenVCAP andREG_5V. Q2 is DMN3023L-7 with20V gate rating. D5 provides a separate3A startup rectifier path; the MOSFET body diode is not assumed to carry a2A cold start.
 
-- https://www.diodes.com/assets/Evaluation-Boards/PAM8406-User-Guide.pdf
-- https://www.diodes.com/datasheet/download/PAM8406.pdf
-- https://www.lcsc.com/product-detail/C71693.html
+L4 is Eaton SDCHA1V6045-4R7-R with saturation/current margin and manufacturer land pattern. C21/C22 are two Murata47uF16V X5R1206 devices selected using the exact DC-bias curve. See CIRCUIT_REVIEW.md, C39_QUALIFICATION.md, POWER_POST_REVIEW.md and PINOUT_REVIEW.md for reasoning, primary sources and assembly limits.
 
-FB1 feeds PAM8406 VDD pin 6; PVDDL/PVDDR pins 4/13 have a separate direct +5 V feed. Do not rate FB1 by loudspeaker output current. Its listed 300 mA MPN and conflicting 1.3 A label still need a documented VDD load/inrush and impedance/DCR check before qualification.
+Local symbols and footprints remove private-library dependencies. Four-layer1mm stack metadata is corrected to35um outer/18um inner copper. Inner power routing and local ground vias are documented in ROUTING_REPAIR.md.
 
-## Remaining release blockers
+## Release evidence
 
-- Live distributor stock/price not verified: LCSC product page exposed specifications but no purchasing stock/price panel in the side browser. No parts are marked stock-qualified.
-- C19: retain 10 uF / 63 V requirement pending a qualified MPN/land-pattern/ESR/temperature/lifetime selection. Existing original BOM MPN is 50 V and remains unapproved.
-- C21/C22 and C23/C24/C39: reconcile higher-voltage MPNs with capacitance, dielectric, DC-bias and geometry. These have not yet been signed off merely because the voltage is higher.
-- Complete component-by-component circuit qualification, sourcing quantities/MOQ and BOM/POS reconciliation remain outstanding.
-- Board stackup metadata needs supplier reconciliation: nominal board thickness is 1 mm, while back-copper metadata says 0.35 mm and board note says 35 um. No stackup has been invented or approved.
-- DFM review must cover PCBWay's complete chosen fabrication process, mask registration/dams, stencil, U12 solder joint and mechanical tolerances. Current added rule implements their specific U12 0.19 mm request, not every possible supplier requirement.
-- Existing `production/` files are ORIGINAL D1 files and DO NOT include this candidate. Do not upload them as revised manufacturing files.
-- Electrical, thermal, audio and EMC behavior are untested on hardware. CAD checks are not a physical or regulatory approval.
+build_release.py exports one native revision and refuses nonzero all-severity ERC, DRC, unconnected or schematic-parity results. It reconciles exact MPNs, dated stock, BOM and placement coverage. The release contains check reports, exported-file verification and a SHA256 manifest. Only production/M1 is current; originalD1 exports remain historical.
 
-## Validation
+Stock observations dated2026-11-09 include ten-board requirements, MOQ and spares; they are not reservations. C39 is intentionally NRND but stocked for this batch. No unqualified substitutions are approved.
 
-KiCad 9.0.7. `candidate-drc.json` includes schematic parity; `candidate-erc.json` includes all severities. `u12-geometry-check.json` captures pad dimensions and a negative control. Board/schematic connectivity is checked by native parity; independent physical connectivity and exported Gerber inspection remain release tasks.
+## Prototype boundary and commissioning
+
+No assembledM1 has been physically tested. CAD qualification is distinct from function, EMC and regulatory conformity; this is a prototype release, not a CE-approved product. The original upstream5–28V claim does not apply to M1.
+
+Use externally fused correctly polarized input, maximum3A fuse on HAT branch, and separate motor distribution above the HAT current budget. Combined regulated5V Pi/audio load maximum2A. Raw input is not reverse-polarity protected.
+
+Inspect polarity/resistance, then ramp current-limited input. Verify regulator output, VCAP/gate voltage, startup/reverse blocking and ripple. Test0–2A load steps, simultaneous Pi/audio and temperatures at6.0/8.4V. Confirm Q2 bypasses D5 after startup; D5 is not a qualified continuous2A fallback. Check WHO_AM_I0x70 and firmware, TTL/RS485, microphone/BTL audio and actual header/standoff clearances before battery operation.
+
+External ports are intended for short internal robot wiring. System ESD, long-cable surge and emissions have not been demonstrated; IC handling ratings are not system immunity evidence. Validate intended cables, grounding and enclosure, then applicable pre-compliance testing before market release. No arbitrary port protection parts were added without a defined requirement.
+
+Exact manufacturer documents and stock URLs are referenced in the circuit/pinout reviews and sourcing.csv. ORDERING.md defines the full manufacturing and assembly instructions.

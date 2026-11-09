@@ -1,0 +1,63 @@
+{
+  "method": "gerbonara interpreted primitives + shapely copper-island graph",
+  "arc_approximation_max_error_mm": 0.0005,
+  "native_plot_origin_mm": [
+    71.397501,
+    84.540001
+  ],
+  "native_outline_bounds_mm": [
+    -0.025033,
+    -0.025033,
+    65.025001,
+    30.925031
+  ],
+  "gerber_object_counts": {
+    "F_Cu": 602,
+    "In1_Cu": 156,
+    "In2_Cu": 227,
+    "B_Cu": 994,
+    "F_Mask": 189,
+    "B_Mask": 333,
+    "Edge_Cuts": 8
+  },
+  "drill_primitives": 193,
+  "native_holes_matched": 193,
+  "drills_with_unknown_plating": 0,
+  "u12_exported_min_copper_gap_mm": 0.20000000000000284,
+  "u12_exported_min_mask_bridge_mm": 0.20000000000000284,
+  "physical_connectivity": {
+    "all_pad_net_short_check": "passed",
+    "critical_net_island_counts": {
+      "+5V": 1,
+      "+BATT": 1,
+      "/Schematic/Power/REG_5V": 1,
+      "GND": 1,
+      "Net-(Q2-G)": 1,
+      "Net-(U10-VCAP)": 1
+    },
+    "copper_islands": 420,
+    "limits": "Net identity from native pads; plated associations from native layer span with all drill centres/sizes matched to Excellon. No impedance, current-temperature, electromagnetic or solder-joint model."
+  },
+  "power_track_count_checked": 306,
+  "power_track_min_native_width_mm": 0.16,
+  "assembly_files": {
+    "bom_rows": 43,
+    "populated_designators": 113,
+    "cpl_origin_side_rotation_check": "passed; native KiCad footprint rotation convention"
+  },
+  "input_sha256": {
+    "fabrication/elec_RPI_Robot_HAT-B_Cu.gbl": "bd0af6eb7eefa8944ece8a6a3eb60dd847145be9690c06bd01de44620ea518ad",
+    "fabrication/elec_RPI_Robot_HAT-B_Mask.gbs": "e20f312d136d43247c80c12b8811d3b347f26243cf4bc06be516bd7f50f92209",
+    "fabrication/elec_RPI_Robot_HAT-B_Silkscreen.gbo": "07c4851d2250b0645e066b8c297a014e80e32485c908802158a36bcca8f944d2",
+    "fabrication/elec_RPI_Robot_HAT-Edge_Cuts.gm1": "ef0872abca1b486fbe6da98b779f3bedc2eceeacc98bf04641605ff8f3808fa1",
+    "fabrication/elec_RPI_Robot_HAT-F_Cu.gtl": "0ea5320be8fb3c124dd3eecb57075d3e77560d7e8b9ce3fee82d3fb05076ea98",
+    "fabrication/elec_RPI_Robot_HAT-F_Mask.gts": "0624108130118f3b731a0f10a22d06fbcf813045e52d04006e81c101cacf6860",
+    "fabrication/elec_RPI_Robot_HAT-F_Silkscreen.gto": "858fa179e2030ea01a960b7603770e270015aed9d106298a58db895b93d125a7",
+    "fabrication/elec_RPI_Robot_HAT-In1_Cu.g1": "337f164c1c8189fd0dc358fd53715768ab29b35d24bf2f009c98a2d254ffd78e",
+    "fabrication/elec_RPI_Robot_HAT-In2_Cu.g2": "0f2f7d1c358aa4c0ad3b0c5d663e3dce7ae775166e35cf88803abaee9a7c4bc9",
+    "fabrication/elec_RPI_Robot_HAT-job.gbrjob": "fbbbb195dc1401b46f4cec6f59d5644ce71c9fbae90875bff11fcf835ea5d9d0",
+    "fabrication/elec_RPI_Robot_HAT-NPTH.drl": "d30037f8b33f6eb43a8ec498724e003c78c2c52567990ed05f6948d0366098cd",
+    "fabrication/elec_RPI_Robot_HAT-PTH.drl": "7f9e9a8c6a309661f3db6ea61dfa1a21bbe5066941860e08a1b85978d4a6605d"
+  },
+  "native_board_sha256": "c81cfaddd14d99ccb39da780481cf95eba0c403e1bb88e17e0a5df1c117468d7"
+}

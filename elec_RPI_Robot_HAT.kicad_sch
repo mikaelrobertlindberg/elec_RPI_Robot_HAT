@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "elec RPI Robot HAT")
-		(date "2026-10-06")
-		(rev "D1")
+		(date "2026-11-09")
+		(rev "D1-M1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -13715,7 +13715,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8f2ab0f-6624-45f8-b8e5-c599d24045f9")
 		(property "Reference" "H2"
@@ -13862,6 +13862,9 @@
 				(hide yes)
 			)
 		)
+		(property "Man." "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Man. Ref." "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "LCSC Part" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"

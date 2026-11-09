@@ -1,0 +1,3 @@
+# Preserve released manufacturing bytes and their manifest hashes across Git.
+# KiCad-generated SVG contains harmless trailing spaces.
+production/M1/** -text -whitespace
