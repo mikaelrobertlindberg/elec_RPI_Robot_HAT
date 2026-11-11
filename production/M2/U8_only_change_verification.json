@@ -1,0 +1,68 @@
+{
+  "m1_board_sha256": "c81cfaddd14d99ccb39da780481cf95eba0c403e1bb88e17e0a5df1c117468d7",
+  "m2_board_sha256": "5ce4b9d56d650af88f8c1c76a4cfa0c4abfa342e2976fedfca7262c64c6ad814",
+  "nonzone_geometry_and_nets_except_U8_EP": "identical",
+  "drills": "identical",
+  "EP_shape": "identical",
+  "EP_before": "GND",
+  "EP_after": "isolated",
+  "change_roi_native_mm": [
+    91.197501,
+    75.14000099999998,
+    94.59750100000001,
+    79.54000099999999
+  ],
+  "layers": {
+    "F.Cu": {
+      "changed_area_mm2": 0.0,
+      "outside_roi_raw_mm2": 0.0,
+      "outside_roi_above_1nm_mm2": 0.0
+    },
+    "In1.Cu": {
+      "changed_area_mm2": 0.0,
+      "outside_roi_raw_mm2": 0.0,
+      "outside_roi_above_1nm_mm2": 0.0
+    },
+    "In2.Cu": {
+      "changed_area_mm2": 0.0,
+      "outside_roi_raw_mm2": 0.0,
+      "outside_roi_above_1nm_mm2": 0.0
+    },
+    "B.Cu": {
+      "changed_area_mm2": 1.2982681218643282,
+      "outside_roi_raw_mm2": 1.8037630730230005e-07,
+      "outside_roi_above_1nm_mm2": 0.0
+    }
+  },
+  "EP_minimum_other_copper_gap_mm": 0.42499999999999716,
+  "pass": true,
+  "unchanged_manufacturing_files_ignoring_timestamps": {
+    "fabrication\\elec_RPI_Robot_HAT-B_Mask.gbs": true,
+    "fabrication\\elec_RPI_Robot_HAT-B_Silkscreen.gbo": true,
+    "fabrication\\elec_RPI_Robot_HAT-Edge_Cuts.gm1": true,
+    "fabrication\\elec_RPI_Robot_HAT-F_Cu.gtl": true,
+    "fabrication\\elec_RPI_Robot_HAT-F_Mask.gts": true,
+    "fabrication\\elec_RPI_Robot_HAT-F_Silkscreen.gto": true,
+    "fabrication\\elec_RPI_Robot_HAT-In1_Cu.g1": true,
+    "fabrication\\elec_RPI_Robot_HAT-In2_Cu.g2": true,
+    "fabrication\\elec_RPI_Robot_HAT-NPTH.drl": true,
+    "fabrication\\elec_RPI_Robot_HAT-PTH.drl": true,
+    "stencil\\elec_RPI_Robot_HAT-B_Paste.gbp": true,
+    "stencil\\elec_RPI_Robot_HAT-F_Paste.gtp": true
+  },
+  "BOM_CPL_DNP_byte_identical": {
+    "BOM_PCBA_10.csv": true,
+    "CPL_PCBA_10.csv": true,
+    "Do_not_populate.csv": true
+  },
+  "netlist_only_difference": [
+    [
+      [
+        "U8",
+        "9"
+      ],
+      "GND",
+      null
+    ]
+  ]
+}

@@ -30,6 +30,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 !production/M1/netlist.xml
+!production/M2/netlist.xml
 #*.csv
 
 # Local investigation and deliberate negative-control board

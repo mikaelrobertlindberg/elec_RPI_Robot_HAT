@@ -6,7 +6,7 @@ from pathlib import Path
 import subprocess,json,csv,hashlib,zipfile,re,xml.etree.ElementTree as ET,shutil,sys
 ROOT=Path(__file__).resolve().parent
 CLI='C:/Program Files/KiCad/9.0/bin/kicad-cli.exe'
-OUT=ROOT/'production'/'M1';OUT.mkdir(parents=True,exist_ok=True)
+OUT=ROOT/'production'/'M2';OUT.mkdir(parents=True,exist_ok=True)
 AUDIT=ROOT/'.audit';AUDIT.mkdir(exist_ok=True)
 FAB=OUT/'fabrication';FAB.mkdir(exist_ok=True)
 BOARD='elec_RPI_Robot_HAT.kicad_pcb';SCH='elec_RPI_Robot_HAT.kicad_sch'
@@ -20,7 +20,7 @@ def export_manufacturing():
  run('pcb','export','drill','--format','excellon','--drill-origin','plot','--excellon-separate-th','--generate-map','--map-format','pdf','-o',str(FAB)+'/',BOARD)
  run('pcb','export','gerbers','--layers','F.Paste,B.Paste','--use-drill-file-origin','-o',str(OUT/'stencil')+'/',BOARD)
  run('pcb','export','pos','--format','csv','--units','mm','--side','both','--use-drill-file-origin','--exclude-dnp','-o',AUDIT/'KiCad_positions_raw.csv',BOARD)
- run('sch','export','pdf','-o',OUT/'Robot_HAT_M1_schematic.pdf',SCH)
+ run('sch','export','pdf','-o',OUT/'Robot_HAT_M2_schematic.pdf',SCH)
 def export_assembly():
  plot_board=AUDIT/'Assembly_plot.kicad_pcb'
  subprocess.run(['C:/Program Files/KiCad/9.0/bin/python.exe',str(ROOT/'verify_release.py'),'--assembly-board',str(plot_board)],cwd=ROOT,check=True)
@@ -35,7 +35,7 @@ def render_assembly():
   svg=fitz.open(stream=(OUT/f'Assembly_{side}.svg').read_bytes(),filetype='svg')
   vector=fitz.open(stream=svg.convert_to_pdf(),filetype='pdf')
   pdf=fitz.open();page=pdf.new_page(width=842,height=595)
-  page.insert_text((36,35),f'Robot HAT D1-M1 - {side} assembly',fontsize=16)
+  page.insert_text((36,35),f'Robot HAT D1-M2 - {side} assembly',fontsize=16)
   page.insert_text((36,52),'Bottom view is mirrored. DNP parts are crossed out. Use BOM/CPL as the population authority.',fontsize=9)
   # KiCad can retain a large SVG canvas even with fit-page flags. Fit the
   # actual vector artwork, never a screenshot or assumed board dimensions.
@@ -45,7 +45,7 @@ def render_assembly():
   assert not clip.is_empty and not clip.is_infinite,'Empty assembly SVG artwork'
   clip=(clip+(-4,-4,4,4)) & vector[0].rect
   page.show_pdf_page(fitz.Rect(36,65,806,559),vector,0,keep_proportion=True,clip=clip)
-  pdf.save(OUT/f'Robot_HAT_M1_assembly_{side}.pdf')
+  pdf.save(OUT/f'Robot_HAT_M2_assembly_{side}.pdf')
   pdf.close();vector.close();svg.close()
 if '--assembly-only' in sys.argv:
  export_assembly();render_assembly();sys.exit()
@@ -103,10 +103,10 @@ shutil.copyfile(AUDIT/'native-connectivity.json',OUT/'Native_connectivity.json')
 # These checks interpret the exported manufacturing data independently of KiCad.
 from verify_release import verify_release
 verify_release(OUT)
-with zipfile.ZipFile(OUT/'Robot_HAT_M1_Gerber.zip','w',zipfile.ZIP_DEFLATED) as z:
+with zipfile.ZipFile(OUT/'Robot_HAT_M2_Gerber.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted(FAB.iterdir()):
   if p.suffix.lower()!='.pdf':z.write(p,p.name)
-manifest={'revision':'D1-M1','quantity_boards':10,'populated_parts_per_board':len(mounted),'bom_rows':len(rows),'source_hash_convention':'Text sources normalized CRLF to LF for Git portability; exported files hashed byte-for-byte. Native_connectivity.json separately binds raw board bytes.','source_sha256':{},'files':{}}
+manifest={'revision':'D1-M2','quantity_boards':10,'populated_parts_per_board':len(mounted),'bom_rows':len(rows),'source_hash_convention':'Text sources normalized CRLF to LF for Git portability; exported files hashed byte-for-byte. Native_connectivity.json separately binds raw board bytes.','source_sha256':{},'files':{}}
 source_paths=[ROOT/BOARD,ROOT/SCH,*ROOT.glob('*.kicad_sch'),ROOT/'elec_RPI_Robot_HAT.kicad_pro',ROOT/'elec_RPI_Robot_HAT.kicad_dru',
  ROOT/'approved_parts.json',ROOT/'sourcing.csv',ROOT/'fp-lib-table',ROOT/'sym-lib-table',ROOT/'Library_Pollen.kicad_sym',
  ROOT/'ORDERING.md',ROOT/'QUALIFICATION.md',ROOT/'build_release.py',ROOT/'verify_release.py',ROOT/'verify_connectivity.py',ROOT/'verify_geometry.py',
@@ -114,10 +114,10 @@ source_paths=[ROOT/BOARD,ROOT/SCH,*ROOT.glob('*.kicad_sch'),ROOT/'elec_RPI_Robot
 for p in source_paths:
  if p.exists():manifest['source_sha256'][p.relative_to(ROOT).as_posix()]=hashlib.sha256(p.read_bytes().replace(b'\r\n',b'\n')).hexdigest()
 for p in sorted(OUT.rglob('*')):
- if p.is_file() and p.name not in ['manifest.json','Robot_HAT_M1_PCBA_10.zip']:
+ if p.is_file() and p.name not in ['manifest.json','Robot_HAT_M2_PCBA_10.zip']:
   manifest['files'][p.relative_to(OUT).as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
 (OUT/'manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
-with zipfile.ZipFile(OUT/'Robot_HAT_M1_PCBA_10.zip','w',zipfile.ZIP_DEFLATED) as z:
+with zipfile.ZipFile(OUT/'Robot_HAT_M2_PCBA_10.zip','w',zipfile.ZIP_DEFLATED) as z:
  for p in sorted(OUT.rglob('*')):
-  if p.is_file() and p.name!='Robot_HAT_M1_PCBA_10.zip':z.write(p,p.relative_to(OUT))
-print(json.dumps({'mounted':len(mounted),'bom_rows':len(rows),'zip':str(OUT/'Robot_HAT_M1_PCBA_10.zip')}))
+  if p.is_file() and p.name!='Robot_HAT_M2_PCBA_10.zip':z.write(p,p.relative_to(OUT))
+print(json.dumps({'mounted':len(mounted),'bom_rows':len(rows),'zip':str(OUT/'Robot_HAT_M2_PCBA_10.zip')}))

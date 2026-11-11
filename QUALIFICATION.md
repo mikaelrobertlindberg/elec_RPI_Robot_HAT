@@ -31,3 +31,8 @@ Inspect polarity/resistance, then ramp current-limited input. Verify regulator o
 External ports are intended for short internal robot wiring. System ESD, long-cable surge and emissions have not been demonstrated; IC handling ratings are not system immunity evidence. Validate intended cables, grounding and enclosure, then applicable pre-compliance testing before market release. No arbitrary port protection parts were added without a defined requirement.
 
 Exact manufacturer documents and stock URLs are referenced in the circuit/pinout reviews and sourcing.csv. ORDERING.md defines the full manufacturing and assembly instructions.
+
+
+## D1-M2 U8-only correction, 2026-11-11
+
+U8 exposed pad9 is isolated as in upstream6de8628. The M1 ground assignment lacked manufacturer justification and is withdrawn. Pin5 remains GND. No component, placement, mask, paste, drill, stackup or other signal change is intended. See M2 change verification. Earlier M1 review statements are historical. This restores original topology without claiming manufacturer confirmation of EP electrical function.

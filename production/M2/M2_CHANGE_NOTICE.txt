@@ -1,0 +1,32 @@
+Robot HAT D1-M2 - U8 exposed pad ONLY - 2026-11-11
+PCB W212983ASI18 / PCBA T-I19W212983A - 10 assembled boards
+
+Replace the M1 fabrication data with Robot_HAT_M2_Gerber.zip.
+The only physical ECO is on B.Cu at U8 (GM3088ENA): disconnect exposed
+pad 9 from GND, leaving an isolated solder land as in the upstream design.
+U8 pin 5 MUST remain connected to GND. Keep the exposed copper land,
+solder-mask opening and paste aperture. Do not remove the component or pad.
+
+See U8_only_change.png: red highlights only the removed ground copper;
+cyan outlines exposed pad 9. This is a TOP-view of B.Cu (not mirrored).
+Native board EP centre: X92.897501,Y77.340001 mm.
+Gerber/placement origin coordinates: X21.500000,Y7.200000 mm.
+EP land remains 1.20 x 2.15 mm. Nearest other copper is 0.425 mm away.
+
+Verified unchanged versus M1:
+- BOM, CPL and DNP files are byte-identical: 113 fitted parts, 43 MPNs.
+- All other schematic pin-to-net connections are identical.
+- Component placements, all pad dimensions, tracks, vias and drills unchanged.
+- F.Cu, In1.Cu, In2.Cu, masks, paste, silkscreen and outline unchanged
+  after removing export timestamps. Only B.Cu copper near U8 differs.
+- Refilling produced sub-1-nm polygon serialization differences elsewhere
+  on B.Cu; no copper change above KiCad's 1-nm coordinate resolution there.
+- Existing stackup, copper thickness, dimensions and assembly rules unchanged.
+
+Native ERC/DRC/schematic parity and independent connectivity pass.
+Gerber and BOM/CPL verification pass. M2 is the replacement package identity;
+unchanged board artwork and source title blocks still show D1-M1 intentionally.
+
+Please confirm that CAM uses this U8-only correction before fabrication.
+If fabrication has already started, report its stage before proceeding.
+Do not apply this change to UFH8 or other projects.

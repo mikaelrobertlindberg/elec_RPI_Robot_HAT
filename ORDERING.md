@@ -1,10 +1,14 @@
-# Robot HAT D1-M1 — ten assembled prototype boards
+# Robot HAT D1-M2 — ten assembled prototype boards
 
-Use ONLY the files inside `production/M1/Robot_HAT_M1_PCBA_10.zip` for this revision. The original D1 files elsewhere in `production/` are historical and must not be mixed with M1.
+Use ONLY the files inside `production/M2/Robot_HAT_M2_PCBA_10.zip` for this revision. The original D1 files elsewhere in `production/` are historical and must not be mixed with M1.
+
+## M2 single-change notice
+
+M2 supersedes M1 solely to restore U8 GM3088ENA exposed pad 9 to an electrically isolated solder land, matching the upstream board. Pin 5 remains GND. Remove only the local B.Cu ground connections to the exposed pad; retain its copper, solder mask and paste apertures. BOM, placements, pad geometry, drills, stackup, outline and all other signal connections are unchanged. Board artwork may retain the M1 label; identify this ECO by the M2 ZIP/manifest and U8 detail. Do not mix old copper files with this revision.
 
 ## Files for PCBWay
 
-- PCB fabrication: `Robot_HAT_M1_Gerber.zip` (four copper layers, mask, silkscreen, board outline and separate plated/nonplated drill files).
+- PCB fabrication: `Robot_HAT_M2_Gerber.zip` (four copper layers, mask, silkscreen, board outline and separate plated/nonplated drill files).
 - Assembly: `BOM_PCBA_10.csv`, `CPL_PCBA_10.csv`, `Do_not_populate.csv`, top/bottom assembly drawings and schematic PDF.
 - `Sourcing_2026-11-09.csv` contains dated distributor stock checks and MOQ/spare quantities. BOM quantities are per board AND total for ten boards; assemble ten boards, not ten times the total column.
 - CPL uses native KiCad9 CSV convention, millimeters, common drill/place origin at the lower-left board corner (native X71.397501,Y84.540001mm), positive X right and positive Y up, both sides, bottom X NOT negated. Do not silently apply historical original-D1 rotation offsets to the newly exported CPL. Check pin1/polarity against the assembly drawings and exact MPN orientation before programming the placement machine.

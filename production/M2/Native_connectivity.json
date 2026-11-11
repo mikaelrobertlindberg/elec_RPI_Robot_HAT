@@ -1,0 +1,410 @@
+{
+  "method": "Native copper polygons + saved zone fills; independent Shapely/GEOS union and plated-barrel graph",
+  "board_sha256": "5ce4b9d56d650af88f8c1c76a4cfa0c4abfa342e2976fedfca7262c64c6ad814",
+  "polygon_approximation_nm": 1000,
+  "shapely_version": "2.2.0",
+  "copper_shape_count": 2111,
+  "plated_bridge_count": 151,
+  "pad_count": 406,
+  "invalid_polygon_repairs": [
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[100.457501 73.927155]",
+      "area_change_mm2": 1.4210854715202004e-13,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[89.7725 80.440014]",
+      "area_change_mm2": 1.4210854715202004e-13,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[125.679394 74.590001]",
+      "area_change_mm2": 1.4210854715202004e-14,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[119.70757 74.790001]",
+      "area_change_mm2": 2.6645352591003757e-15,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[134.474881 69.550001]",
+      "area_change_mm2": 1.9326762412674725e-12,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[107.604881 68.7]",
+      "area_change_mm2": 0.0,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[113.204881 68.7]",
+      "area_change_mm2": 8.881784197001252e-15,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[130.092 75.266153]",
+      "area_change_mm2": 1.1141310096718371e-11,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[130.092 75.266153]",
+      "area_change_mm2": 1.5916157281026244e-12,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[130.345121 68.340001]",
+      "area_change_mm2": 5.684341886080802e-14,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[93.092501 80.669986]",
+      "area_change_mm2": 5.400124791776761e-13,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[122.456331 75.640001]",
+      "area_change_mm2": 2.1316282072803006e-14,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[101.6175 56.287844]",
+      "area_change_mm2": 4.689582056016661e-13,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[90.205419 74.69]",
+      "area_change_mm2": 0.0,
+      "valid_after": true
+    },
+    {
+      "id": "zone:0",
+      "reason": "Ring Self-intersection[120.847501 66.015001]",
+      "area_change_mm2": 1.7053025658242404e-13,
+      "valid_after": true
+    }
+  ],
+  "unrepresented_pads": [],
+  "disconnected_nets": [],
+  "cross_net_copper_intersections": [],
+  "nets": {
+    "Net-(J1-Pin_1)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(J1-Pin_2)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "/Schematic/Power/REG_5V": {
+      "pad_count": 10,
+      "physical_component_count": 1
+    },
+    "+BATT": {
+      "pad_count": 9,
+      "physical_component_count": 1
+    },
+    "GND": {
+      "pad_count": 105,
+      "physical_component_count": 1
+    },
+    "Net-(U9-SW)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(U9-BST)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(C42-Pad2)": {
+      "pad_count": 5,
+      "physical_component_count": 1
+    },
+    "+3V3": {
+      "pad_count": 54,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_02": {
+      "pad_count": 5,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_03": {
+      "pad_count": 5,
+      "physical_component_count": 1
+    },
+    "Net-(U1-+OUT_L)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(J9-Pin_2)": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "Net-(U2-MICBIAS)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(J13-Pin_3)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/ID_SC": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "Net-(J6-Pin_4)": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "Net-(U2-MIC1LP{slash}LINE1LP)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(J2-Pin_2)": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "Net-(J6-Pin_3)": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "/Schematic/Dynamixel/Dynamixel_dir": {
+      "pad_count": 6,
+      "physical_component_count": 1
+    },
+    "Net-(U2-MIC1RP{slash}LINE1RP)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(C10-Pad1)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U2-MIC2R{slash}LINE2R)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U12-SDO{slash}SA0)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_05": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U12-SDX)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "+1V8": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_14": {
+      "pad_count": 5,
+      "physical_component_count": 1
+    },
+    "Net-(Q1-B)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U12-SCX)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U12-INT2)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U12-VDD)": {
+      "pad_count": 5,
+      "physical_component_count": 1
+    },
+    "Net-(J11-Pin_3)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(J11-Pin_4)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_08": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_09": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(U1--OUT_L)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_10": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_11": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_22": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U12-INT1)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_06": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "+5V": {
+      "pad_count": 16,
+      "physical_component_count": 1
+    },
+    "Net-(R31-Pad2)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(U8-RO)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_15": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U1-VDD)": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_04": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_18": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/ID_SD": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_19": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_20": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "/Schematic/Audio/IO_21": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(Q2-G)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(D4-K)": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(R32-Pad2)": {
+      "pad_count": 4,
+      "physical_component_count": 1
+    },
+    "Net-(U1-VREF)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U8-~{RE})": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(U1-~{MUTE})": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U1-INL)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U1-MODE)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U1-INR)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U1-~{SHND})": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U1--OUT_R)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U1-+OUT_R)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U2-~{RESET})": {
+      "pad_count": 3,
+      "physical_component_count": 1
+    },
+    "Net-(U2-RIGHT_LOP)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(C2-Pad2)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U2-LEFT_LOP)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(C1-Pad2)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U10-VCAP)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U2-MCLK)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    },
+    "Net-(U2-MIC2L{slash}LINE2L{slash}MICDET)": {
+      "pad_count": 2,
+      "physical_component_count": 1
+    }
+  },
+  "pass": true,
+  "limits": "Checks saved copper geometry only; does not prove fabrication, plating integrity, thermal/current capability, RF return quality or measured function.",
+  "negative_controls": {
+    "target_net": "Net-(U10-VCAP)",
+    "unchanged_subset_pass": true,
+    "deliberate_open_detected": true,
+    "deliberate_short_detected": true
+  }
+}
